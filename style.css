@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Lobster&family=Outfit&family=Rampart+One&display=swap");
+/* adding fonts for google font  */
+
+body {
+  background-position: center;
+  background-size: cover;
+  font-family: 'Outfit', sans-serif;
+}
+
+.heading{
+    width: 100%;
+    font-size: 23px;
+    font-family: 'Lobster', cursive;
+}
+
+label{
+    color: blue;
+    margin: 5px;
+}
+
+input[type="text"]
+{
+    padding: 5px;
+    border: none;
+    color: blue;
+}
