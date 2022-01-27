@@ -24,3 +24,17 @@ input[type="text"]
     border: none;
     color: blue;
 }
+
+canvas {
+    border-radius: 25px;
+    box-sizing: 10px 10px 42px rgb(0, 238, 255);
+    animation-name: canavgo;
+    animation-duration: 2ms;
+    animation-iteration-count: infinite;
+    margin-top: 250px;
+}
+
+@keyframes canavgo{
+    from{box-shadow: 10px 10px 180px rgb(0, 140, 255);}
+    to{box-shadow: 10px 10px 42px rgb(0, 238, 255);}
+}
